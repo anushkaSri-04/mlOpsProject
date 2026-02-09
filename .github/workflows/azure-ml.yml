@@ -25,3 +25,7 @@ jobs:
 
       - name: List files (debug)
         run: ls -la
+
+      - name: Run training script
+        run: |
+          python main.py
